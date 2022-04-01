@@ -33,6 +33,7 @@ var data = require( './../data/data.json' );
 // VARIABLES //
 
 var debug = logger( 'error:database:build' );
+var RE_DOUBLE_QUOTE = /"/g;
 
 // Output file paths:
 var OUTPUT_JSON = resolve( __dirname, '..', 'data', 'data.json' );
@@ -40,6 +41,17 @@ var OUTPUT_CSV = resolve( __dirname, '..', 'data', 'data.csv' );
 
 
 // FUNCTIONS //
+
+/**
+* Escapes double quotes in a string.
+*
+* @private
+* @param {string} str - input string
+* @returns {string} escaped string
+*/
+function escapeQuotes( str ) {
+	return str.replace( RE_DOUBLE_QUOTE, '\\"' );
+}
 
 /**
 * Returns the next code in the sequence of form `[a-zA-Z0-9]{2}` (in lexicographical order).
@@ -135,7 +147,7 @@ function main() {
 		'base_dir="${root_dir}/lib/node_modules/@stdlib"', // Determine the base directory
 		'\n',
 		'find "${base_dir}" -type f -name \'*.js\' ',
-		'-path "**/lib/*" ',
+		'! -path "**/test/*" ! -path "**/examples/*" ! -path "**/benchmark/*"  ! -path "**/scripts/*" ! -path "**/cli/*" ! -path "**/docs/*" ',
 		'-exec grep -E "^[^*]+new [a-zA-Z]*Error\\( \'[^\']+\' \\)" {} \\;',
 		'|',
 		'sed -E "s/^.*Error\\( \'([^\']+)\' \\).*$/\\1/"'
@@ -149,7 +161,7 @@ function main() {
 		'base_dir="${root_dir}/lib/node_modules/@stdlib"', // Determine the base directory
 		'\n',
 		'find "${base_dir}" -type f -name \'*.js\' ',
-		'-path "**/lib/*" ',
+		'! -path "**/test/*" ! -path "**/examples/*" ! -path "**/benchmark/*"  ! -path "**/scripts/*" ! -path "**/cli/*" ! -path "**/docs/*" ',
 		'-exec grep -E "^[^*]+new [a-zA-Z]*Error\\( format\\( \'[^\']+\'" {} \\;',
 		'|',
 		'sed -E "s/^.*Error\\( format\\( \'([^\']+)\'.*$/\\1/"'
@@ -178,7 +190,7 @@ function main() {
 	keys = objectKeys( data );
 	csv = '';
 	for ( i = 0; i < keys.length; i++ ) {
-		csv += '"' + keys[ i ] + '",' + data[ keys[i] ] + '\n'; // Note: ensures trailing newline
+		csv += '"' + keys[ i ] + '","' + escapeQuotes( data[ keys[i] ] ) + '"\n'; // Note: ensures trailing newline
 	}
 	writeFile( OUTPUT_CSV, csv, fopts );
 }
