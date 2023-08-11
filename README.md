@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@deno/mod.js';
+import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@v0.0.3-deno/mod.js';
 ```
 
 #### database()
@@ -56,7 +56,7 @@ var db = database();
 ```javascript
 import invertObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-object-inverse@deno/mod.js';
 import replace from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-replace@deno/mod.js';
-import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@deno/mod.js';
+import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@v0.0.3-deno/mod.js';
 
 var db = database();
 var errorMap = invertObject( db );
