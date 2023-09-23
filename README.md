@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/error-tools-database/tags). For example,
+
+```javascript
 import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@v0.1.0-deno/mod.js';
 ```
 
@@ -67,7 +72,7 @@ var db = database();
 ```javascript
 import invertObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-object-inverse@deno/mod.js';
 import replace from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-replace@deno/mod.js';
-import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@v0.1.0-deno/mod.js';
+import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@deno/mod.js';
 
 var db = database();
 var errorMap = invertObject( db );
