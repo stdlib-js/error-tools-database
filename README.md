@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@esm/index.mjs';
+import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@v0.3.0-esm/index.mjs';
 ```
 
 #### database()
@@ -72,7 +72,7 @@ var db = database();
 
 import invertObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-object-inverse@esm/index.mjs';
 import replace from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-replace@esm/index.mjs';
-import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@esm/index.mjs';
+import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@v0.3.0-esm/index.mjs';
 
 var db = database();
 var errorMap = invertObject( db );
