@@ -35,43 +35,32 @@ limitations under the License.
 
 > Standard library error code database.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/error-tools-database
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-database = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/error-tools-database/tags). For example,
-
-```javascript
-database = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@v0.3.0-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var database = require( 'path/to/vendor/umd/error-tools-database/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.database;
-})();
-</script>
+var database = require( '@stdlib/error-tools-database' );
 ```
 
 #### database()
@@ -93,15 +82,10 @@ var db = database();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-object-inverse@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-replace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var invertObject = require( '@stdlib/utils-object-inverse' );
+var replace = require( '@stdlib/string-replace' );
+var database = require( '@stdlib/error-tools-database' );
 
 var db = database();
 var errorMap = invertObject( db );
@@ -114,11 +98,6 @@ function replacer( match, p1 ) {
 var code = 'throw new Error( \'insufficient input arguments. Must provide at least one iterator function.\' );';
 var transformed = replace( code, RE_ERR_MSG, replacer );
 // returns 'throw new Error( formatProdErrorMessage( \'04\' ) );'
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -175,8 +154,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/error-tools-database.svg
 [npm-url]: https://npmjs.org/package/@stdlib/error-tools-database
 
-[test-image]: https://github.com/stdlib-js/error-tools-database/actions/workflows/test.yml/badge.svg?branch=v0.3.0
-[test-url]: https://github.com/stdlib-js/error-tools-database/actions/workflows/test.yml?query=branch:v0.3.0
+[test-image]: https://github.com/stdlib-js/error-tools-database/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/error-tools-database/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/error-tools-database/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/error-tools-database?branch=main
