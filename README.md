@@ -35,14 +35,32 @@ limitations under the License.
 
 > Standard library error code database.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/error-tools-database
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@esm/index.mjs';
+var database = require( '@stdlib/error-tools-database' );
 ```
 
 #### database()
@@ -64,15 +82,10 @@ var db = database();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import invertObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-object-inverse@esm/index.mjs';
-import replace from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-replace@esm/index.mjs';
-import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@esm/index.mjs';
+```javascript
+var invertObject = require( '@stdlib/utils-object-inverse' );
+var replace = require( '@stdlib/string-replace' );
+var database = require( '@stdlib/error-tools-database' );
 
 var db = database();
 var errorMap = invertObject( db );
@@ -85,10 +98,6 @@ function replacer( match, p1 ) {
 var code = 'throw new Error( \'insufficient input arguments. Must provide at least one iterator function.\' );';
 var transformed = replace( code, RE_ERR_MSG, replacer );
 // returns 'throw new Error( formatProdErrorMessage( \'04\' ) );'
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -120,7 +129,7 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -132,7 +141,7 @@ For more information on the project, filing bug reports and feature requests, an
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
