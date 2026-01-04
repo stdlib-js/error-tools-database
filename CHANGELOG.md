@@ -4,12 +4,33 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-17)
+## Unreleased (2026-01-04)
 
 <section class="features">
 
 ### Features
 
+-   [`ce53fb5`](https://github.com/stdlib-js/stdlib/commit/ce53fb5de8b6c28a1ea088bdc58c3ef24ef5c095) - update error databases [(#9033)](https://github.com/stdlib-js/stdlib/pull/9033)
+-   [`316ba7e`](https://github.com/stdlib-js/stdlib/commit/316ba7eee1bd8c423b2ef02d44aa5e084d504244) - update error databases [(#8578)](https://github.com/stdlib-js/stdlib/pull/8578)
+-   [`a0b1e88`](https://github.com/stdlib-js/stdlib/commit/a0b1e889fb69e6c8f14ea30ca7357bceb985a39c) - update error databases [(#8543)](https://github.com/stdlib-js/stdlib/pull/8543)
+-   [`99e8f14`](https://github.com/stdlib-js/stdlib/commit/99e8f1412d6a27eb27e5d0d02d9f81945d14fbd5) - update error databases [(#8454)](https://github.com/stdlib-js/stdlib/pull/8454)
+-   [`5c9fb38`](https://github.com/stdlib-js/stdlib/commit/5c9fb388f6b4a17bda578345251c84c666514ec8) - update error databases [(#8150)](https://github.com/stdlib-js/stdlib/pull/8150)
+-   [`a6cf0cf`](https://github.com/stdlib-js/stdlib/commit/a6cf0cf725f003bbfcd5d24ff2221919338c954e) - update error databases [(#8115)](https://github.com/stdlib-js/stdlib/pull/8115)
+-   [`3cae960`](https://github.com/stdlib-js/stdlib/commit/3cae960432d7d903d0eb37a094db20d5f75f72cf) - update error databases [(#8069)](https://github.com/stdlib-js/stdlib/pull/8069)
+-   [`132f36a`](https://github.com/stdlib-js/stdlib/commit/132f36a977386ab096662902eb7830fe6b140c76) - update error databases [(#7991)](https://github.com/stdlib-js/stdlib/pull/7991)
+-   [`d9443db`](https://github.com/stdlib-js/stdlib/commit/d9443dbda63b97e6f17b991f17cac96e7a8b8e8c) - update error databases [(#7943)](https://github.com/stdlib-js/stdlib/pull/7943)
+-   [`d6ee4e5`](https://github.com/stdlib-js/stdlib/commit/d6ee4e5db0d8c86c57fc7c110ad41c0fdb00b321) - update error databases [(#7752)](https://github.com/stdlib-js/stdlib/pull/7752)
+-   [`a337404`](https://github.com/stdlib-js/stdlib/commit/a3374043768674fe57765ead5aa348067b3c4880) - update error databases [(#7700)](https://github.com/stdlib-js/stdlib/pull/7700)
+-   [`1c2c241`](https://github.com/stdlib-js/stdlib/commit/1c2c241591ad0be0cd68cb5a6143c5040f42971d) - update error databases [(#7441)](https://github.com/stdlib-js/stdlib/pull/7441)
+-   [`20006f1`](https://github.com/stdlib-js/stdlib/commit/20006f1fca23ce3b53d3db6ba1cba3ddd23a3093) - update error databases [(#7258)](https://github.com/stdlib-js/stdlib/pull/7258)
+-   [`5cc3bbe`](https://github.com/stdlib-js/stdlib/commit/5cc3bbe5e21e0d05f3b14f79d913fa9e54467240) - update error databases [(#7025)](https://github.com/stdlib-js/stdlib/pull/7025)
+-   [`ff01f60`](https://github.com/stdlib-js/stdlib/commit/ff01f6032235111e1462f5717c3427da48de396a) - update error databases [(#6978)](https://github.com/stdlib-js/stdlib/pull/6978)
+-   [`28bcb80`](https://github.com/stdlib-js/stdlib/commit/28bcb80f3c93f77abd7a35215dac3c2a5abab367) - update error databases [(#6915)](https://github.com/stdlib-js/stdlib/pull/6915)
+-   [`f16d98f`](https://github.com/stdlib-js/stdlib/commit/f16d98fb1e7743711e08c63c2d19f8c1cb8c2551) - update error databases [(#6827)](https://github.com/stdlib-js/stdlib/pull/6827)
+-   [`6b367a1`](https://github.com/stdlib-js/stdlib/commit/6b367a1d53cd697503f8e6705e3dd12b288d7d36) - update error databases [(#6739)](https://github.com/stdlib-js/stdlib/pull/6739)
+-   [`323d3ba`](https://github.com/stdlib-js/stdlib/commit/323d3ba1b01e675a2f98a1872209148155c05853) - update error databases [(#6665)](https://github.com/stdlib-js/stdlib/pull/6665)
+-   [`9bcc503`](https://github.com/stdlib-js/stdlib/commit/9bcc5036c822e0ba19b7289a11367293f1a8fd85) - update error databases [(#6575)](https://github.com/stdlib-js/stdlib/pull/6575)
+-   [`9002aa4`](https://github.com/stdlib-js/stdlib/commit/9002aa4b67f28ecfdb32dc6d3cb8f6a8034b157b) - update error databases [(#6448)](https://github.com/stdlib-js/stdlib/pull/6448)
 -   [`52a3af1`](https://github.com/stdlib-js/stdlib/commit/52a3af15547afcb194741d01f1834e02fe1a2f89) - update error databases [(#5720)](https://github.com/stdlib-js/stdlib/pull/5720)
 -   [`a6f782c`](https://github.com/stdlib-js/stdlib/commit/a6f782c129f57a40dc31b36effbf910d3d11007c) - update error databases [(#4806)](https://github.com/stdlib-js/stdlib/pull/4806)
 -   [`fb83180`](https://github.com/stdlib-js/stdlib/commit/fb83180244018f56fff48fea8263d915fc8bbf2e) - update error databases [(#4705)](https://github.com/stdlib-js/stdlib/pull/4705)
@@ -32,6 +53,30 @@
 
 <details>
 
+-   [`46c47ec`](https://github.com/stdlib-js/stdlib/commit/46c47ec0c92f9a3608290ef8a6ca5cf0e9258866) - **refactor:** update paths _(by Neeraj Pathak)_
+-   [`ce53fb5`](https://github.com/stdlib-js/stdlib/commit/ce53fb5de8b6c28a1ea088bdc58c3ef24ef5c095) - **feat:** update error databases [(#9033)](https://github.com/stdlib-js/stdlib/pull/9033) _(by stdlib-bot)_
+-   [`316ba7e`](https://github.com/stdlib-js/stdlib/commit/316ba7eee1bd8c423b2ef02d44aa5e084d504244) - **feat:** update error databases [(#8578)](https://github.com/stdlib-js/stdlib/pull/8578) _(by stdlib-bot)_
+-   [`a0b1e88`](https://github.com/stdlib-js/stdlib/commit/a0b1e889fb69e6c8f14ea30ca7357bceb985a39c) - **feat:** update error databases [(#8543)](https://github.com/stdlib-js/stdlib/pull/8543) _(by stdlib-bot)_
+-   [`99e8f14`](https://github.com/stdlib-js/stdlib/commit/99e8f1412d6a27eb27e5d0d02d9f81945d14fbd5) - **feat:** update error databases [(#8454)](https://github.com/stdlib-js/stdlib/pull/8454) _(by stdlib-bot)_
+-   [`5c9fb38`](https://github.com/stdlib-js/stdlib/commit/5c9fb388f6b4a17bda578345251c84c666514ec8) - **feat:** update error databases [(#8150)](https://github.com/stdlib-js/stdlib/pull/8150) _(by stdlib-bot)_
+-   [`a6cf0cf`](https://github.com/stdlib-js/stdlib/commit/a6cf0cf725f003bbfcd5d24ff2221919338c954e) - **feat:** update error databases [(#8115)](https://github.com/stdlib-js/stdlib/pull/8115) _(by stdlib-bot)_
+-   [`3cae960`](https://github.com/stdlib-js/stdlib/commit/3cae960432d7d903d0eb37a094db20d5f75f72cf) - **feat:** update error databases [(#8069)](https://github.com/stdlib-js/stdlib/pull/8069) _(by stdlib-bot)_
+-   [`132f36a`](https://github.com/stdlib-js/stdlib/commit/132f36a977386ab096662902eb7830fe6b140c76) - **feat:** update error databases [(#7991)](https://github.com/stdlib-js/stdlib/pull/7991) _(by stdlib-bot)_
+-   [`d9443db`](https://github.com/stdlib-js/stdlib/commit/d9443dbda63b97e6f17b991f17cac96e7a8b8e8c) - **feat:** update error databases [(#7943)](https://github.com/stdlib-js/stdlib/pull/7943) _(by stdlib-bot)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`f344466`](https://github.com/stdlib-js/stdlib/commit/f344466c6dcfb8f52d7f3148acaadd52772938da) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`d6ee4e5`](https://github.com/stdlib-js/stdlib/commit/d6ee4e5db0d8c86c57fc7c110ad41c0fdb00b321) - **feat:** update error databases [(#7752)](https://github.com/stdlib-js/stdlib/pull/7752) _(by stdlib-bot)_
+-   [`a337404`](https://github.com/stdlib-js/stdlib/commit/a3374043768674fe57765ead5aa348067b3c4880) - **feat:** update error databases [(#7700)](https://github.com/stdlib-js/stdlib/pull/7700) _(by stdlib-bot, Athan Reines)_
+-   [`1c2c241`](https://github.com/stdlib-js/stdlib/commit/1c2c241591ad0be0cd68cb5a6143c5040f42971d) - **feat:** update error databases [(#7441)](https://github.com/stdlib-js/stdlib/pull/7441) _(by stdlib-bot)_
+-   [`20006f1`](https://github.com/stdlib-js/stdlib/commit/20006f1fca23ce3b53d3db6ba1cba3ddd23a3093) - **feat:** update error databases [(#7258)](https://github.com/stdlib-js/stdlib/pull/7258) _(by stdlib-bot)_
+-   [`5cc3bbe`](https://github.com/stdlib-js/stdlib/commit/5cc3bbe5e21e0d05f3b14f79d913fa9e54467240) - **feat:** update error databases [(#7025)](https://github.com/stdlib-js/stdlib/pull/7025) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`ff01f60`](https://github.com/stdlib-js/stdlib/commit/ff01f6032235111e1462f5717c3427da48de396a) - **feat:** update error databases [(#6978)](https://github.com/stdlib-js/stdlib/pull/6978) _(by stdlib-bot)_
+-   [`28bcb80`](https://github.com/stdlib-js/stdlib/commit/28bcb80f3c93f77abd7a35215dac3c2a5abab367) - **feat:** update error databases [(#6915)](https://github.com/stdlib-js/stdlib/pull/6915) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`f16d98f`](https://github.com/stdlib-js/stdlib/commit/f16d98fb1e7743711e08c63c2d19f8c1cb8c2551) - **feat:** update error databases [(#6827)](https://github.com/stdlib-js/stdlib/pull/6827) _(by stdlib-bot)_
+-   [`6b367a1`](https://github.com/stdlib-js/stdlib/commit/6b367a1d53cd697503f8e6705e3dd12b288d7d36) - **feat:** update error databases [(#6739)](https://github.com/stdlib-js/stdlib/pull/6739) _(by stdlib-bot)_
+-   [`323d3ba`](https://github.com/stdlib-js/stdlib/commit/323d3ba1b01e675a2f98a1872209148155c05853) - **feat:** update error databases [(#6665)](https://github.com/stdlib-js/stdlib/pull/6665) _(by stdlib-bot)_
+-   [`9bcc503`](https://github.com/stdlib-js/stdlib/commit/9bcc5036c822e0ba19b7289a11367293f1a8fd85) - **feat:** update error databases [(#6575)](https://github.com/stdlib-js/stdlib/pull/6575) _(by stdlib-bot)_
+-   [`9002aa4`](https://github.com/stdlib-js/stdlib/commit/9002aa4b67f28ecfdb32dc6d3cb8f6a8034b157b) - **feat:** update error databases [(#6448)](https://github.com/stdlib-js/stdlib/pull/6448) _(by stdlib-bot)_
 -   [`52a3af1`](https://github.com/stdlib-js/stdlib/commit/52a3af15547afcb194741d01f1834e02fe1a2f89) - **feat:** update error databases [(#5720)](https://github.com/stdlib-js/stdlib/pull/5720) _(by stdlib-bot)_
 -   [`a6f782c`](https://github.com/stdlib-js/stdlib/commit/a6f782c129f57a40dc31b36effbf910d3d11007c) - **feat:** update error databases [(#4806)](https://github.com/stdlib-js/stdlib/pull/4806) _(by stdlib-bot)_
 -   [`fb83180`](https://github.com/stdlib-js/stdlib/commit/fb83180244018f56fff48fea8263d915fc8bbf2e) - **feat:** update error databases [(#4705)](https://github.com/stdlib-js/stdlib/pull/4705) _(by stdlib-bot)_
@@ -54,9 +99,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Neeraj Pathak
 -   Philipp Burckhardt
 
 </section>
