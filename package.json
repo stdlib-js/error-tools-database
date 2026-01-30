@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/error-tools-database",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Standard library error code database.",
   "license": "Apache-2.0",
   "author": {
@@ -44,7 +44,7 @@
   "devDependencies": {
     "@stdlib/assert-is-plain-object": "^0.2.2",
     "@stdlib/fs-write-file": "^0.2.2",
-    "@stdlib/object-inverse": "github:stdlib-js/object-inverse#main",
+    "@stdlib/object-inverse": "^0.1.0",
     "@stdlib/string-replace": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
     "@stdlib/utils-merge": "^0.2.2",
