@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/error-tools-database/tags). For example,
+
+```javascript
 import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@v0.4.0-esm/index.mjs';
 ```
 
@@ -72,7 +77,7 @@ var db = database();
 
 import invertObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse@esm/index.mjs';
 import replace from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-replace@esm/index.mjs';
-import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@v0.4.0-esm/index.mjs';
+import database from 'https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-database@esm/index.mjs';
 
 var db = database();
 var errorMap = invertObject( db );
